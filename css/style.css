@@ -5,12 +5,16 @@
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .container{
   width: 1140px;
   margin: 0 auto;
+}
+
+.light-bc{
+  background-color: #E4E9F8;
 }
 
 /* HEADER */
@@ -19,8 +23,16 @@ header{
 }
 
 /* NAV */
+header .pre-nav{
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
 header nav{
+  width: 1140px;
   height: 74px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,8 +45,29 @@ nav .logo img{
 
 nav .menu-bar ul li{
   display: inline-block;
-  text-transform: uppercase;
   padding: 0 10px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3c4858;
+}
+
+nav .menu-icons{
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+}
+
+nav .menu-icons>a{
+  color: #8492a6;
+}
+
+nav .menu-icons .square i{
+  margin-left: 10px;
+  padding: 9px;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px 0 rgb(47 85 212 / 30%);
+  color: #2f55d4;
 }
 
 /* JUMBOTRON */
