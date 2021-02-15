@@ -2,5 +2,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
   font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header{
+  background-color: #F8F9FC;
+}
+
+header nav{
+  height: 74px;
+}
+
+header .jumbotron{
+  height: 486px;
+  padding: 184px 0 90px 0;
+}
+
+header .jumbo-low{
+  height: 74px;
+  padding: 24px 0;
 }
