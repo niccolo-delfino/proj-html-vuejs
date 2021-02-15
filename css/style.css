@@ -18,10 +18,26 @@ header{
   background-color: #F8F9FC;
 }
 
+/* NAV */
 header nav{
   height: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink
 }
 
+nav .logo img{
+  height: 24px;
+}
+
+nav .menu-bar ul li{
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+/* JUMBOTRON */
 header .jumbotron{
   height: 486px;
   padding: 184px 0 90px 0;
