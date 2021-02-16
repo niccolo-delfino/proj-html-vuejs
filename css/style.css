@@ -48,6 +48,11 @@ a{
   box-shadow: 0 3px 5px 0 rgb(47 85 212 / 30%);
 }
 
+.land{
+  font-weight: bold;
+  color: #2F55D4;
+}
+
 /* HEADER */
 header{
   background-color: #F8F9FC;
@@ -163,6 +168,26 @@ header .jumbo-low .loghetti{
 
 header .jumbo-low img{
   height: 25px;
+}
+
+/* MAIN */
+main p{
+  font-size: 16px;
+  color: #8492a6;
+}
+/* KEY */
+main .key{
+  padding-top: 100px;
+}
+
+main .key h2{
+  font-size: 30px;
+  padding-bottom: 24px;
+}
+
+main .key p{
+  width: 50%;
+  padding-bottom: 24px;
 }
 
 
