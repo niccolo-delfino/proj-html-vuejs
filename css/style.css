@@ -172,16 +172,15 @@ header .jumbo-low img{
 }
 
 /* MAIN */
+main section{
+  margin-top: 100px;
+}
 main p{
   font-size: 16px;
   color: #8492a6;
 }
 /* KEY */
-main .key{
-  padding-top: 100px;
-}
-
-main .key h2{
+main h2{
   font-size: 30px;
   padding-bottom: 24px;
 }
@@ -193,6 +192,7 @@ main .key>p{
 
 /* KEY SQUARE */
 .all-square{
+  margin-top: 24px;
   display: flex;
   justify-content: space-between;
 }
@@ -229,6 +229,35 @@ main .key>p{
   font-size: 13px;
 }
 
+/* QUICK */
+.quick{
+  text-align: center;
+}
+
+.quick h4{
+  padding-bottom: 8px;
+  color: #2F55D4;
+}
+
+.black-rettangle{
+  width: 736px;
+  height: 130px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #3C4858;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.inside-rettangle{
+  width: 686px;
+  height: 40px;
+  background-color: #4F5A69;
+  border: 1px solid rgba(248,249,252,0.1);
+  border-radius: 6px;
+}
 
 
 
