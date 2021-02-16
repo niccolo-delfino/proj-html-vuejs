@@ -246,6 +246,10 @@ main .key>p{
   width: 50%;
   padding-bottom: 50px;
 }
+.interactive{
+  display: flex;
+  flex-direction: column;
+}
 
 .black-rettangle{
   width: 736px;
@@ -278,7 +282,18 @@ main .key>p{
 }
 
 .check{
+  padding-top: 24px;
   align-self: flex-start;
+}
+
+.check span{
+  padding-right: 25px;
+  color: #8492a6;
+}
+
+.check i{
+  padding-right: 10px;
+  color: #2eca8b;
 }
 
 
