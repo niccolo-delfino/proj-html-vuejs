@@ -81,7 +81,7 @@ nav .logo img{
 
 nav .menu-bar ul li{
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 20px;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -157,13 +157,14 @@ height: 100%;
 
 /* JUMBO-LOW */
 header .jumbo-low{
-  height: 74px;
+  height: 122px;
   padding: 24px 0;
 }
 
 header .jumbo-low .loghetti{
   display: flex;
   justify-content: space-around;
+  padding-top: 24px;
 }
 
 header .jumbo-low img{
@@ -185,11 +186,48 @@ main .key h2{
   padding-bottom: 24px;
 }
 
-main .key p{
+main .key>p{
   width: 50%;
   padding-bottom: 24px;
 }
 
+/* KEY SQUARE */
+.all-square{
+  display: flex;
+  justify-content: space-between;
+}
+
+.key .key-square{
+  width: 23%;
+  margin-top: 24px;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px 0 rgb(47 85 212 / 30%);
+}
+
+.key .key-square>i{
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 6px;
+  color: #2F55D4;
+  background-color: #EAEEFB;
+}
+
+.key .key-square h3{
+  padding: 24px 0 8px;
+  font-size: 18px;
+  color: black;
+}
+
+.key .key-square a{
+  font-size: 16px;
+  color: #2F55D4;
+}
+
+.key .key-square a i{
+  padding-top: 16px;
+  font-size: 13px;
+}
 
 
 
