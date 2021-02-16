@@ -14,8 +14,11 @@
   <title>Landrick</title>
 </head>
 <body>
+  <div id="app">
 
+  <!-- HEADER -->
   <header>
+    <!-- NAVBAR -->
     <div class="pre-nav">
       <nav>
         <div class="logo">
@@ -40,16 +43,40 @@
         </div>
       </nav>
     </div>
+    <!-- JUMBOTRON -->
     <div class="container">
       <div class="jumbotron">
-        <div class="jumbo-left"></div>
+        <!-- LEFT SIDE -->
+        <div class="jumbo-left">
+          <div class="jumbo-left-container">
+            <span class="mini-title">Development</span>
+            <h1>A Complete Developer Toolset</h1>
+            <p>Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+            <a href="#" class="btn blue-btn">Get Started</a>
+            <a href="#" class="btn tra-btn">Documentation</a>
+            <p>Current Version: v3.0.0.0</p>
+          </div>
+        </div>
+        <!-- RIGHT SIDE -->
         <div class="jumbo-right">
           <img src="img/about.png" alt="about">
         </div>
       </div>
-      <div class="jumbo-low"></div>
+      <!-- LOW SIDE -->
+      <div class="jumbo-low">
+        <div class="loghetti">
+          <div class="logetto" v-for="logo in loghi">
+            <img :src="'img/' + logo + '.svg'" alt="">
+          </div>
+        </div>
+      </div>
     </div>
   </header>
+
+
+<!-- APP -->
+</div>
+
 
 
   <script src="js/script.js" charset="utf-8"></script>

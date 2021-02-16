@@ -13,8 +13,39 @@ body{
   margin: 0 auto;
 }
 
+a{
+  text-decoration: none;
+}
+
+/* REUSABLE */
 .light-bc{
   background-color: #E4E9F8;
+}
+
+.btn{
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.blue-btn{
+  color: white;
+  background-color: #2F55D4;
+  box-shadow: 0 3px 5px 0 rgb(47 85 212 / 30%);
+}
+.blue-btn:hover{
+  background-color: #2443AC;
+}
+
+.tra-btn{
+  color: #2F55D4;
+  border: 1px solid #2F55D4;
+}
+
+.tra-btn:hover{
+  color: white;
+  background-color: #2F55D4;
+  box-shadow: 0 3px 5px 0 rgb(47 85 212 / 30%);
 }
 
 /* HEADER */
@@ -75,16 +106,119 @@ header .jumbotron{
   height: 760px;
   padding: 184px 0 90px 0;
   display: flex;
+  border-bottom: 1px solid lightgrey;
 }
 
 header .jumbotron .jumbo-left,
 header .jumbotron .jumbo-right{
 width: 50%;
 height: 100%;
-background-color: lightblue;
 }
 
+/* JUMBO-LEFT */
+.jumbo-left{
+  display: flex;
+  align-items: center;
+}
+
+.jumbo-left .mini-title{
+  padding: 4px 8px;
+  font-size: 12px;
+  color: #2f55d4;
+  background-color: rgba(47, 85, 212, 0.1);
+  border-radius: 20px;
+}
+
+.jumbo-left h1{
+  width: 75%;
+  margin: 8px 0 16px;
+  font-size: 42px;
+}
+
+.jumbo-left p{
+  font-size: 18px;
+  margin-bottom: 48px;
+  color: #8492a6;
+}
+
+.jumbo-left p:last-child{
+  margin-top: 16px;
+}
+
+/* JUMBO-RIGHT */
+.jumbo-right img{
+  margin: 0 34px;
+}
+
+/* JUMBO-LOW */
 header .jumbo-low{
   height: 74px;
   padding: 24px 0;
 }
+
+header .jumbo-low .loghetti{
+  display: flex;
+  justify-content: space-around;
+}
+
+header .jumbo-low img{
+  height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* a */
