@@ -67,7 +67,7 @@ header nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: pink
+  background-color: #F8F9FC;
 }
 
 nav .logo img{
