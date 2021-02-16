@@ -231,12 +231,20 @@ main .key>p{
 
 /* QUICK */
 .quick{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
 .quick h4{
   padding-bottom: 8px;
   color: #2F55D4;
+}
+
+.quick p{
+  width: 50%;
+  padding-bottom: 50px;
 }
 
 .black-rettangle{
@@ -254,9 +262,23 @@ main .key>p{
 .inside-rettangle{
   width: 686px;
   height: 40px;
+  display: flex;
   background-color: #4F5A69;
   border: 1px solid rgba(248,249,252,0.1);
   border-radius: 6px;
+}
+
+.mini-rettangle{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+
+.check{
+  align-self: flex-start;
 }
 
 
