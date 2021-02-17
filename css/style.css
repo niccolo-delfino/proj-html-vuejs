@@ -57,6 +57,10 @@ ul li{
   color: #2F55D4;
 }
 
+.active{
+  border-color: #3C4858;
+}
+
 /* HEADER */
 header{
   background-color: #F8F9FC;

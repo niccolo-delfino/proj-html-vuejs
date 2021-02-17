@@ -117,12 +117,9 @@
         <div class="interactive">
           <div class="black-rettangle">
             <div class="inside-rettangle">
-              <div class="mini-rettangle">npm</div>
-              <div class="mini-rettangle">nuget</div>
-              <div class="mini-rettangle">spm</div>
-              <div class="mini-rettangle">github</div>
+              <div v-for="(obj, index) in quick" @click="rettangolo(index)" class="mini-rettangle">{{obj}}</div>
             </div>
-          <span>placeholder</span>
+          <span>{{span[counter]}}</span>
           </div>
           <div class="check">
             <span><i class="far fa-check-circle"></i>Organize your data</span>
@@ -234,7 +231,7 @@
         <div class="links">
           <h3>Usefull Links</h3>
           <ul>
-            <li v-for="link in links"><i class="fas fa-chevron-right"></i>{{link}}</li>  
+            <li v-for="link in links"><i class="fas fa-chevron-right"></i>{{link}}</li>
           </ul>
         </div>
         <!-- NEWSLETTER -->
