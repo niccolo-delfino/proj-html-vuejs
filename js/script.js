@@ -2,6 +2,7 @@ var app = new Vue({
   el: `#app`,
   data: {
     counter: 0,
+    nav:['landing', 'pages', 'docs'],
     span:['prova1', 'prova2', 'prova3', 'prova4'],
     loghi: ['amazon', 'google', 'lenovo', 'paypal', 'shopify', 'spotify'],
     quick: ['npm', 'nuget', 'spm', 'github'],
@@ -17,7 +18,6 @@ var app = new Vue({
   methods: {
     rettangolo(indice){
       this.counter = indice;
-      console.log(this.counter);
     }
   }
 });

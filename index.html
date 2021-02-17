@@ -17,7 +17,7 @@
   <div id="app">
 
   <!-- HEADER -->
-  <header>
+  <header id="init">
     <!-- NAVBAR -->
     <div class="pre-nav">
       <nav>
@@ -27,10 +27,9 @@
         </div>
         <div class="menu-bar">
           <ul>
-            <li>home</li>
-            <li>landing <i class="fas fa-chevron-down"></i></li>
-            <li>pages <i class="fas fa-chevron-down"></i></li>
-            <li>docs <i class="fas fa-chevron-down"></i></li>
+            <li><a href="#">home</a></li>
+            <li v-for="link in nav"><a href="#">{{link}}</a><i class="fas fa-chevron-down"></i></li>
+
           </ul>
         </div>
         <div class="menu-icons">
@@ -117,7 +116,7 @@
         <div class="interactive">
           <div class="black-rettangle">
             <div class="inside-rettangle">
-              <div v-for="(obj, index) in quick" @click="rettangolo(index)" class="mini-rettangle">{{obj}}</div>
+              <div v-for="(obj, index) in quick" @click="rettangolo(index)" :class="(index == counter) ? 'active' : ' '" class="mini-rettangle">{{obj}}</div>
             </div>
           <span>{{span[counter]}}</span>
           </div>
@@ -243,7 +242,9 @@
       <div class="footer-down">
       </div>
     </div>
+    <div class="arrow"><a href="#init">prova</a></div>
   </footer>
+
 
 
 <!-- APP -->

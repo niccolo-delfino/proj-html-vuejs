@@ -58,7 +58,8 @@ ul li{
 }
 
 .active{
-  border-color: #3C4858;
+  background-color: #3C4858;
+  border-radius: 6px;
 }
 
 /* HEADER */
@@ -93,6 +94,10 @@ nav .menu-bar ul li{
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+nav .menu-bar ul li a{
+  padding-right: 5px;
   color: #3c4858;
 }
 
@@ -289,6 +294,10 @@ main .key>p{
   color: white;
 }
 
+.mini-rettangle:hover{
+cursor: pointer;
+}
+
 .check{
   padding-top: 24px;
   align-self: flex-start;
@@ -464,33 +473,60 @@ footer{
 /* FOOTER-UP */
 
 .footer-up{
+  padding-top: 60px;
   display: flex;
+}
+
+.footer-up h3{
+  padding-bottom: 24px;
+}
+
+.footer-up li{
+  padding-bottom: 10px;
+}
+
+.footer-up li i{
+  font-size: 13px;
+  padding-right: 10px;
 }
 
 .landrick{
   width: 380px;
+  padding: 0 12px;
 }
 
 .landrick img{
   width: 135px;
+  padding-bottom: 24px;
+}
+
+.landrick p{
+  padding-bottom: 24px;
+}
+
+.landrick i{
+  font-size: 30px;
+  padding-right: 3px;
+}
+
+.landrick i:hover{
+  cursor: pointer;
+  color: #2F55D4;
 }
 
 .company{
   width: 190px;
-    height: 500px;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 
 .links{
-  width: 285px;
-  height: 500px;
-  background-color: purple;
+  width: 285px
+  /* background-color: purple; */
 }
 
 .newsletter{
   width: 285px;
-    height: 500px;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
 }
 
 
