@@ -73,6 +73,7 @@
     </div>
   </header>
 
+  <!-- MAIN -->
   <main>
     <div class="container">
       <!-- KEY -->
@@ -207,8 +208,45 @@
           <a href="#" class="btn blue-btn">Get Started</a>
         </div>
       </section>
-
   </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <!-- FOOTER-UP -->
+      <div class="footer-up">
+        <!-- LANDRICK -->
+        <div class="landrick">
+          <img src="img/logo-light.png" alt="Logo">
+          <p>Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+        <!-- COMPANY -->
+        <div class="company">
+          <h3>Company</h3>
+          <ul>
+            <li v-for="link in company"><i class="fas fa-chevron-right"></i>{{link}}</li>
+          </ul>
+        </div>
+        <!-- LINKS -->
+        <div class="links">
+          <h3>Usefull Links</h3>
+          <ul>
+            <li v-for="link in links"><i class="fas fa-chevron-right"></i>{{link}}</li>  
+          </ul>
+        </div>
+        <!-- NEWSLETTER -->
+        <div class="newsletter">
+          <h3>Newsletter</h3>
+        </div>
+      </div>
+      <!-- FOOTERDOWN -->
+      <div class="footer-down">
+      </div>
+    </div>
+  </footer>
 
 
 <!-- APP -->

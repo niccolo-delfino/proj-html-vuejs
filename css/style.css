@@ -452,8 +452,42 @@ height: 100%;
   border-radius: 50px;
 }
 
+/* FOOTER */
+footer{
+  background-color: #202942;
+  color: #adb5bd;
+}
+/* FOOTER-UP */
 
+.footer-up{
+  display: flex;
+}
 
+.landrick{
+  width: 380px;
+}
+
+.landrick img{
+  width: 135px;
+}
+
+.company{
+  width: 190px;
+    height: 500px;
+    background-color: lightblue;
+}
+
+.links{
+  width: 285px;
+  height: 500px;
+  background-color: purple;
+}
+
+.newsletter{
+  width: 285px;
+    height: 500px;
+    background-color: lightgreen;
+}
 
 
 
