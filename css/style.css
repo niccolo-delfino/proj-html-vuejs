@@ -418,6 +418,39 @@ height: 100%;
   text-align: center;
 }
 
+/* WANT */
+.want{
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.want p{
+  width: 60%;
+}
+
+/* MAIL */
+.mail{
+  margin-top: 30px;
+  position: relative;
+  right: -64px;
+}
+
+.mail input{
+  width: 700px;
+  padding: 11px 20px;
+  border-radius: 50px;
+  outline: 0;
+  border: 1px solid lightgrey
+}
+
+.mail a{
+  position: relative;
+  left: -128px;
+  border-radius: 50px;
+}
 
 
 
