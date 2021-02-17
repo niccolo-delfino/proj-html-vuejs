@@ -17,6 +17,10 @@ a{
   text-decoration: none;
 }
 
+ul li{
+  list-style: none;
+}
+
 /* REUSABLE */
 .light-bc{
   background-color: #E4E9F8;
@@ -63,6 +67,7 @@ header .pre-nav{
   width: 100%;
   position: fixed;
   top: 0;
+  background-color: #F8F9FC;
 }
 
 header nav{
@@ -72,7 +77,6 @@ header nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #F8F9FC;
 }
 
 nav .logo img{
@@ -295,6 +299,55 @@ main .key>p{
   padding-right: 10px;
   color: #2eca8b;
 }
+
+/* BUILD */
+.build{
+  width: 100%;
+  height: 437px;
+  display: flex;
+}
+
+.build-left,
+.build-right{
+width: 50%;
+height: 100%;
+}
+
+.build-left,
+.build-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* BUILD-LEFT */
+.build>p,
+.build .tools{
+  padding: 24px 0;
+}
+
+.build h2{
+  width: 60%;
+}
+
+.build .tools p{
+  padding: 5px 0;
+}
+
+.build i{
+  color: #2F55D4;
+}
+
+/* BUILD-RIGHT */
+.build img{
+  width: 451px;
+  height: 437px;
+  align-self: flex-end;
+}
+
+
+
+
 
 
 
