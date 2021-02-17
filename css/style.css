@@ -345,6 +345,17 @@ height: 100%;
   align-self: flex-end;
 }
 
+/* RATES */
+.rates h2,
+.rates p{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rates p{
+  width: 50%;
+}
+
 
 
 
