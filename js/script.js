@@ -3,7 +3,7 @@ var app = new Vue({
   data: {
     counter: 0,
     nav:['landing', 'pages', 'docs'],
-    span:['prova1', 'prova2', 'prova3', 'prova4'],
+    span:['npm install', 'coming soon', 'coming soon', 'coming soon'],
     loghi: ['amazon', 'google', 'lenovo', 'paypal', 'shopify', 'spotify'],
     quick: ['npm', 'nuget', 'spm', 'github'],
     tools:['Digital Marketing Solutions for Tomorrow', 'Our Talented & Experienced Marketing Agency', 'Create your own skin to match your brand'],

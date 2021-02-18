@@ -52,6 +52,30 @@ ul li{
   box-shadow: 0 3px 5px 0 rgb(47 85 212 / 30%);
 }
 
+.dark-btn{
+  padding: 12px 0;
+  text-align: center;
+  color: #2F55D4;
+  border-radius: 10px;
+  border: 1px solid rgba(47, 85, 212, 0.1);
+  box-shadow: 0 3px 5px 0 rgb(47 85 212 / 30%);
+}
+
+.dark-btn a{
+  color: #2F55D4;
+}
+
+.dark-btn:hover{
+  color: white;
+  cursor: pointer;
+  background-color: #2F55D4;
+  box-shadow: 0 3px 5px 0 rgb(47 85 212 / 30%);
+}
+
+.dark-btn:hover a{
+  color: white;
+}
+
 .land{
   font-weight: bold;
   color: #2F55D4;
@@ -60,6 +84,14 @@ ul li{
 .active{
   background-color: #3C4858;
   border-radius: 6px;
+}
+
+.green{
+  color: #2eca8b;
+}
+
+.red{
+  color: red;
 }
 
 /* HEADER */
@@ -276,6 +308,12 @@ main .key>p{
   text-align: left;
 }
 
+.black-rettangle>span{
+  font-size: 16px;
+  font-weight: bold;
+  color: #8492a6;
+}
+
 .inside-rettangle{
   width: 686px;
   height: 40px;
@@ -479,10 +517,15 @@ footer{
 
 .footer-up h3{
   padding-bottom: 24px;
+  color: white;
 }
 
 .footer-up li{
   padding-bottom: 10px;
+}
+
+.footer-up li a{
+  color: #adb5bd;
 }
 
 .footer-up li i{
@@ -516,17 +559,29 @@ footer{
 
 .company{
   width: 190px;
-    /* background-color: lightblue; */
 }
 
 .links{
   width: 285px
-  /* background-color: purple; */
 }
 
 .newsletter{
   width: 285px;
-    /* background-color: lightgreen; */
+}
+
+.newsletter p{
+padding-bottom: 10px;
+}
+
+.newsletter input{
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 10px;
+outline: 0;
+border: 0;
+font-size: 15px;
+background-color: #27314f;
 }
 
 
