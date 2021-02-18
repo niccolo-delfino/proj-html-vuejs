@@ -104,6 +104,7 @@ header .pre-nav{
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 999;
   background-color: #F8F9FC;
 }
 
@@ -149,6 +150,11 @@ nav .menu-icons .square i{
   border-radius: 5px;
   box-shadow: 0 3px 5px 0 rgb(47 85 212 / 30%);
   color: #2f55d4;
+}
+
+nav .menu-icons .square a:hover i{
+  color: white;
+  background-color: #2F55D4;
 }
 
 /* JUMBOTRON */
@@ -246,6 +252,7 @@ main .key>p{
   width: 23%;
   margin-top: 24px;
   padding: 24px;
+  position: relative;
   border-radius: 8px;
   box-shadow: 0 1px 5px 0 rgb(47 85 212 / 30%);
   transition: 0.5s;
@@ -255,12 +262,28 @@ main .key>p{
  transform: translate(0, -10px);
 }
 
+.key .key-square:hover .i-hover i{
+  color: #2f55d4;
+   opacity: 0.1;
+}
+
 .key .key-square>i{
   font-size: 25px;
   padding: 20px;
   border-radius: 6px;
   color: #2F55D4;
   background-color: #EAEEFB;
+}
+
+.key .key-square .i-hover i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: -2;
+  transition: all 0.5s ease;
+  font-size: 200px;
 }
 
 .key .key-square h3{
@@ -426,7 +449,15 @@ height: 100%;
   display: flex;
   flex-direction: column;
   box-shadow: 0 3px 5px 0 rgb(47 85 212 / 30%);
+  border-bottom: 5px solid lightgrey;
   border-radius: 10px;
+  transition: 0.5s;
+}
+
+.price-single:hover{
+  transform: scale(1.03);
+  border-color: #2f55d4;
+  box-shadow: 0 5px 13px rgba(60,72,88,0.2);
 }
 
 .price-single .price-title span{
@@ -531,6 +562,10 @@ footer{
 
 .footer-up li a{
   color: #adb5bd;
+}
+
+.footer-up li a:hover{
+  color: white;
 }
 
 .footer-up li i{
