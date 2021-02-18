@@ -511,7 +511,7 @@ footer{
 /* FOOTER-UP */
 
 .footer-up{
-  padding-top: 60px;
+  padding: 60px 0;
   display: flex;
 }
 
@@ -583,6 +583,46 @@ border: 0;
 font-size: 15px;
 background-color: #27314f;
 }
+
+/* FOOTER-DOWN */
+.footer-down{
+  border-top: 1px solid #adb5bd;
+}
+
+.footer-down .container{
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-down .credits,
+.footer-down .cards{
+  display: flex;
+}
+
+.footer-down .cards img{
+  width: 40px;
+  padding-left: 5px;
+}
+
+/* ARROW */
+.arrow{
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+.arrow i{
+  padding: 15px;
+  color: white;
+  background-color: #2F55D4;
+  border-radius: 10px;
+}
+
+.arrow:hover i{
+ background-color: #2443AC;
+}
+
 
 
 
